@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Barber Shop</title>
+    <link href="https://fonts.googleapis.com/css?
+    family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+            <p>You imagine and we create!</p>
+            <div class="banner-btn">
+                <a href="#services"><span></span>Services</a>
+                <a href="#footer"><span></span>Call now</a>
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+    
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#feature">FEATURES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#testimonial">TESTIMONIALS</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#footer">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="images/menu.png" id="menu">
+    </div>
+
+    <script>
+        var menuBtn = document.getElementById(menuBtn)
+        var sideNav = document.getElementById(sideNav)
+        var menu = document.getElementById(menu)
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right == "0"
+            }
+            else{
+                sideNav.style.right = "-250"
+            }
+        }
+    </script>
+
+    <!--Features-->
+
+<section id="feature">
+    <div class="title-text">
+        <p>FEATURES</p>
+        <h1>Why Choose Us</h1>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+             <h1>Experienced Staff</h1>
+             <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-shield" aria-hidden="true"></i>
+                </div>
+                    <div class="feature-text">
+                        <p>Our staff has over twenty years of 
+                            experience in this field. </p>
+                    </div>
+             </div>
+             <h1>Pre Booking Online</h1>
+             <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-check-square-o"></i>
+                </div>
+                    <div class="feature-text">
+                        <p>If you want to avoid waiting in line, you 
+                            can reserve the date and time in advance.
+                        </p>
+                    </div>
+             </div
+
+             ><h1>Affordable Cost</h1>
+             <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-inr"></i>
+                </div>
+                    <div class="feature-text">
+                        <p>The price is fairly affordable for anyone.</p>
+                    </div>
+             
+            </div>
+        <div class="features-img">
+            <img src="images/1.jpg">
+        </div>
+        
+</section>
+
+<!--Gallery-->
+
+<section id="gallery">
+        <div class="title-text">
+        <p>GALLERY</p>
+        <br><br>
+        <h5>Hairstyles</h5>
+        <br>
+        <img src="images/hair 1.jpg">
+        <img src="images/hair 2.jpg">
+        <img src="images/hair 3.jpg">
+        <img src="images/hair 6.jpg">
+        <img src="images/hair 7.jpg">
+        <h6>Beard</h6>
+        <br>
+        <img src="images/barba 1.jpg">
+        <img src="images/barba 4.jpg">
+        <img src="images/barba 5.jpg">
+        <img src="images/barba 2.jpg">
+        <img src="images/barba 3.jpg">
+    </div>
+    </div>
+</section>
+
+<!--Testimonial-->
+
+<section id="testimonial">
+    <div class="title-text">
+        <p>TESTIMONIAL</p>
+        <h1>What Client Says</h1>
+    </div>
+    <div class="testimonial-row">
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/img-1.jpg">
+                <div class="user-info">
+                    <h4>Williams Robinson </h4>
+                    <small>@williamsrobinson</small>
+                </div>
+            </div>
+            <p>Best haircut I have ever gotten! I have been coming 
+                here for a couple years and always get consistently 
+                great results. I did not know what I was missing out 
+                on before I started coming here</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/img-2.jpg">
+                <div class="user-info">
+                    <h4>Evans Sophie</h4>
+                    <small>@evanssophie</small>
+                </div>
+            </div>
+            <p>I’ve never been in the same barbershop until 
+                I came to this place. They are consistent and 
+                very talented in what they do. Highly recommended.</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/img-3.jpg">
+                <div class="user-info">
+                    <h4>Hayes Richard</h4>
+                    <small>@hayesrichard</small>
+                </div>
+            </div>
+            <p>This is my go-to barbershop. Good prices. The barbers 
+                are pleasant and friendly. They always give me a great 
+                haircut. I won’t go anywhere else now! Definitely recommend 
+                this place!</p>
+        </div>
+    </div>
+
+</section>
+
+<!--service-->
+
+<section id="services">
+    <div class="title-text">
+        <p>Services and pricing</p>
+        </div>
+
+        </div>
+        <div class="table">
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Service name</th>
+                <th>Description</th>
+                <th>Work time<br>(min)</th>  
+                <th>Price<br>(£)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Hairstyles men</td>
+                <td>training, trimming, wash, retouch, dryng, volumizing</td>
+                <td>35</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Beard trimming</td>
+                <td>training, trimming, delineation</td>
+                <td>25</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Smooth shave</td>
+                <td>training, foam application, scraping, hydration</td>
+                <td>20</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Hairstyles woman</td>
+                <td>training, trimming, wash, retouch, dryng, volumizing</td>
+                <td>50</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Boy child hairstyles</td>
+                <td>training, trimming, wash, dryng, volumizing</td>
+                <td>30</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Child girl hairstyles</td>
+                <td>training, trimming, wash, retouch, dryng</td>
+                <td>35</td>
+                <td>18</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<!--footer-->
+
+<section id="footer">
+    <div class="title-text">
+        <p>CONTACT</p>
+        <h1>Visit Shop Today</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p>Monday to Friday:<br>8am to 8pm</p>
+            <p>Saturday to Sunday:<br>8am to 5pm</p>
+        </div>
+        <div class="footer-center">
+            <h1>Reserve</h1>
+            <p>Reservations are only made by phone during</p><p>business hours and will be taken by an operator.</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get In Touch</h1>
+            <p>#30 abc Colony, xyz City </p>
+            <p>example@website.com</p>
+            <p>+01 123456789</p>
+            
+            
+        </div>
+    </div>
+
+    
+</section>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right =="-250px"){
+                sideNav.style.right = "0";
+                menu.src = "images/close.png";
+            
+    }
+    else{ 
+        sideNav.style.right = "-250px"; 
+        menu.src = "images/menu.png";
+    }
+ }
+ 
+    </script>
+</body>
+</html>
